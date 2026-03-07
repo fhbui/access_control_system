@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "my_ui.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "stm32f4xx_hal_rcc.h": "c",
+        "stm32f4xx_hal_def.h": "c",
+        "lvgl.h": "c",
+        "cmsis_os.h": "c",
+        "lcd.h": "c",
+        "queue.h": "c",
+        "semphr.h": "c",
+        "task.h": "c",
+        "process.h": "c",
+        "dwt.h": "c",
+        "my_lvgl.h": "c",
+        "freertos.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "cmsis_compiler.h": "c"
+    }
+}

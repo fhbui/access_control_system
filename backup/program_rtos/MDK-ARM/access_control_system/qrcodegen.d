@@ -1,0 +1,15 @@
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\qrcodegen.c
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\limits.h
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdlib.h
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\string.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\qrcodegen.h
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdbool.h
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stddef.h
+.\access_control_system\qrcodegen.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_assert.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_internal.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_kconfig.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_log.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_types.h
+.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_mem.h

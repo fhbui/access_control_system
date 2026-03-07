@@ -1,0 +1,716 @@
+[
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\RC522.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\RC522.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/RC522.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/RC522.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\as608.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\as608.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/as608.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/as608.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\ctpiic.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\ctpiic.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/ctpiic.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/ctpiic.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\data_flash.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\data_flash.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/data_flash.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/data_flash.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\dwt.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\dwt.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/dwt.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/dwt.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\ft6336.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\ft6336.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/ft6336.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/ft6336.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\tim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\tim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/tim.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/tim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\usart.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\usart.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/usart.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/usart.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\w25qxx.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\w25qxx.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/w25qxx.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/w25qxx.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\电阻屏\\lcd.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\电阻屏\\lcd.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/电阻屏/lcd.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/电阻屏/lcd.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\BSP\\电阻屏\\touch.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\BSP\\电阻屏\\touch.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/BSP/电阻屏/touch.c",
+  "output": "CMakeFiles/main.dir/Code/BSP/电阻屏/touch.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\GUI.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\GUI.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/GUI.c",
+  "output": "CMakeFiles/main.dir/Code/GUI.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\lcd.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\lcd.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/lcd.c",
+  "output": "CMakeFiles/main.dir/Code/lcd.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\my_lvgl.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\my_lvgl.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/my_lvgl.c",
+  "output": "CMakeFiles/main.dir/Code/my_lvgl.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\my_ui.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\my_ui.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/my_ui.c",
+  "output": "CMakeFiles/main.dir/Code/my_ui.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\process.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\process.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/process.c",
+  "output": "CMakeFiles/main.dir/Code/process.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\test.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\test.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/test.c",
+  "output": "CMakeFiles/main.dir/Code/test.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Code\\touch.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Code\\touch.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Code/touch.c",
+  "output": "CMakeFiles/main.dir/Code/touch.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\freertos.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\freertos.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/freertos.c",
+  "output": "CMakeFiles/main.dir/Core/Src/freertos.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\gpio.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\gpio.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/gpio.c",
+  "output": "CMakeFiles/main.dir/Core/Src/gpio.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\main.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\main.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/main.c",
+  "output": "CMakeFiles/main.dir/Core/Src/main.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\stm32f4xx_hal_msp.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\stm32f4xx_hal_msp.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/stm32f4xx_hal_msp.c",
+  "output": "CMakeFiles/main.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\stm32f4xx_hal_timebase_tim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\stm32f4xx_hal_timebase_tim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/stm32f4xx_hal_timebase_tim.c",
+  "output": "CMakeFiles/main.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\stm32f4xx_it.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\stm32f4xx_it.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/stm32f4xx_it.c",
+  "output": "CMakeFiles/main.dir/Core/Src/stm32f4xx_it.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Core\\Src\\system_stm32f4xx.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Core\\Src\\system_stm32f4xx.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Core/Src/system_stm32f4xx.c",
+  "output": "CMakeFiles/main.dir/Core/Src/system_stm32f4xx.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_adc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_adc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_adc_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_adc_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_can.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_can.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cec.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cec.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_crc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_crc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cryp.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cryp.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cryp_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cryp_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dac.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dac.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dac_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dac_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dcmi.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dcmi.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dcmi_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dcmi_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dfsdm.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dfsdm.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma2d.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma2d.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dsi.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dsi.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_eth.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_eth.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpi2c.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpi2c.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpi2c_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpi2c_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpsmbus.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpsmbus.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpsmbus_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_fmpsmbus_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hash.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hash.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hash_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hash_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hcd.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_hcd.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2c.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2c.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2c_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2c_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2s.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2s.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2s_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_i2s_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_irda.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_irda.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_iwdg.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_iwdg.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_lptim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_lptim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_ltdc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_ltdc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_ltdc_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_ltdc_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_mmc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_mmc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_msp_template.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_msp_template.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp_template.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_nand.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_nand.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_nor.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_nor.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pccard.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pccard.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pcd.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pcd.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pcd_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pcd_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_qspi.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_qspi.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rng.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rng.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rtc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rtc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rtc_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rtc_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sai.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sai.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sai_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sai_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sd.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sd.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sdram.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sdram.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_smartcard.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_smartcard.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_smbus.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_smbus.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spdifrx.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spdifrx.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sram.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_sram.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim_ex.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim_ex.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_rtc_alarm_template.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_rtc_alarm_template.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_alarm_template.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_rtc_wakeup_template.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_rtc_wakeup_template.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_rtc_wakeup_template.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_tim_template.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_timebase_tim_template.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_timebase_tim_template.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_uart.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_uart.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_usart.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_usart.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_wwdg.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_wwdg.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_adc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_adc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_crc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_crc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dac.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dac.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dma.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dma.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dma2d.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_dma2d.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_exti.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_exti.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fmc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fmc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fmpi2c.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fmpi2c.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fsmc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_fsmc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_gpio.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_gpio.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_i2c.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_i2c.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_lptim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_lptim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_pwr.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_pwr.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rcc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rcc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rng.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rng.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rtc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_rtc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_sdmmc.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_sdmmc.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_spi.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_spi.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_tim.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_tim.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_usart.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_usart.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_usb.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_usb.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+},
+{
+  "directory": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/build",
+  "command": "F:\\mingw64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\main.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_utils.c.obj -c J:\\my_project\\00_my_practical_project\\access_control_system\\program_rtos\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_ll_utils.c",
+  "file": "J:/my_project/00_my_practical_project/access_control_system/program_rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c",
+  "output": "CMakeFiles/main.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj"
+}
+]
