@@ -6,6 +6,6 @@
 .\access_control_system\lv_ll.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\misc\lv_mem.h
 .\access_control_system\lv_ll.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_internal.h
 .\access_control_system\lv_ll.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\misc\../lv_conf_kconfig.h
-.\access_control_system\lv_ll.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_ll.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_ll.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\string.h
 .\access_control_system\lv_ll.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\misc\lv_types.h

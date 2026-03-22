@@ -4,7 +4,7 @@
 .\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\stm32_dma2d\../../misc/../lv_conf_internal.h
 .\access_control_system\lv_gpu_stm32_dma2d.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\stm32_dma2d\../../misc/../lv_conf_kconfig.h
-.\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_gpu_stm32_dma2d.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\stm32_dma2d\../../misc/lv_assert.h
 .\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\stm32_dma2d\../../misc/lv_log.h
 .\access_control_system\lv_gpu_stm32_dma2d.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\stm32_dma2d\../../misc/lv_types.h

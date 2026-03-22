@@ -34,6 +34,4 @@
 .\access_control_system\data_flash.o: ..\Code\BSP\data_flash.h
 .\access_control_system\data_flash.o: ../Core/Inc/main.h
 .\access_control_system\data_flash.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdio.h
-.\access_control_system\data_flash.o: ..\Code\process.h
-.\access_control_system\data_flash.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdbool.h
-.\access_control_system\data_flash.o: ..\Code\log.h
+.\access_control_system\data_flash.o: ../Code/log.h

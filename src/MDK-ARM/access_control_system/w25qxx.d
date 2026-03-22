@@ -1,5 +1,5 @@
-.\access_control_system\w25qxx.o: ..\Code\BSP\w25qxx.c
-.\access_control_system\w25qxx.o: ..\Code\BSP\w25qxx.h
+.\access_control_system\w25qxx.o: ..\Code\Components\w25qxx.c
+.\access_control_system\w25qxx.o: ..\Code\Components\w25qxx.h
 .\access_control_system\w25qxx.o: ../Core/Inc/main.h
 .\access_control_system\w25qxx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\access_control_system\w25qxx.o: ../Core/Inc/stm32f4xx_hal_conf.h

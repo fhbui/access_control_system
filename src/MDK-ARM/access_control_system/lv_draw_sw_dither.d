@@ -5,7 +5,7 @@
 .\access_control_system\lv_draw_sw_dither.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\sw\../../core/../misc/../lv_conf_internal.h
 .\access_control_system\lv_draw_sw_dither.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_draw_sw_dither.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\sw\../../core/../misc/../lv_conf_kconfig.h
-.\access_control_system\lv_draw_sw_dither.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_draw_sw_dither.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_draw_sw_dither.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdbool.h
 .\access_control_system\lv_draw_sw_dither.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\sw\lv_draw_sw_gradient.h
 .\access_control_system\lv_draw_sw_dither.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\sw\../../misc/lv_color.h

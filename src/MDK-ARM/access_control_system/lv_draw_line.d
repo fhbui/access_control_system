@@ -5,7 +5,7 @@
 .\access_control_system\lv_draw_line.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../core/../lv_conf_internal.h
 .\access_control_system\lv_draw_line.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_draw_line.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../core/../lv_conf_kconfig.h
-.\access_control_system\lv_draw_line.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_draw_line.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_draw_line.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stddef.h
 .\access_control_system\lv_draw_line.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../core/../misc/lv_style.h
 .\access_control_system\lv_draw_line.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../core/../misc/../font/lv_font.h

@@ -44,4 +44,8 @@
 .\access_control_system\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 .\access_control_system\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 .\access_control_system\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+.\access_control_system\main.o: ../Core/Inc/dma.h
+.\access_control_system\main.o: ../Core/Inc/spi.h
+.\access_control_system\main.o: ../Core/Inc/tim.h
+.\access_control_system\main.o: ../Core/Inc/usart.h
 .\access_control_system\main.o: ../Core/Inc/gpio.h

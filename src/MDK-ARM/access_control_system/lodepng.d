@@ -7,7 +7,7 @@
 .\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\png\../../../../src/misc/../lv_conf_internal.h
 .\access_control_system\lodepng.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\png\../../../../src/misc/../lv_conf_kconfig.h
-.\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lodepng.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\png\../../../../src/misc/lv_types.h
 .\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\png\../../../../src/misc/lv_timer.h
 .\access_control_system\lodepng.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\png\../../../../src/misc/../hal/lv_hal_tick.h

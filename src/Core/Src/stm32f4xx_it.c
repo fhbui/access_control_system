@@ -22,11 +22,7 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "as608.h"
-#include "tim.h"
-#include "lcd.h"
 #include "lvgl.h"
-#include "touch.h"
 
 #include "FreeRTOS.h"
 #include "semphr.h"
@@ -63,6 +59,10 @@ unsigned char uartRxData;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern TIM_HandleTypeDef htim6;
+extern TIM_HandleTypeDef htim7;
+extern DMA_HandleTypeDef hdma_usart1_rx;
+extern UART_HandleTypeDef huart1;
 extern TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN EV */
@@ -181,8 +181,64 @@ void TIM4_IRQHandler(void)
   /* USER CODE END TIM4_IRQn 1 */
 }
 
+/**
+  * @brief This function handles USART1 global interrupt.
+  */
+void USART1_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART1_IRQn 0 */
+
+  /* USER CODE END USART1_IRQn 0 */
+  HAL_UART_IRQHandler(&huart1);
+  /* USER CODE BEGIN USART1_IRQn 1 */
+
+  /* USER CODE END USART1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM6 global interrupt, DAC1 and DAC2 underrun error interrupts.
+  */
+void TIM6_DAC_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM6_DAC_IRQn 0 */
+
+  /* USER CODE END TIM6_DAC_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim6);
+  /* USER CODE BEGIN TIM6_DAC_IRQn 1 */
+
+  /* USER CODE END TIM6_DAC_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM7 global interrupt.
+  */
+void TIM7_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM7_IRQn 0 */
+
+  /* USER CODE END TIM7_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim7);
+  /* USER CODE BEGIN TIM7_IRQn 1 */
+
+  /* USER CODE END TIM7_IRQn 1 */
+}
+
+/**
+  * @brief This function handles DMA2 stream2 global interrupt.
+  */
+void DMA2_Stream2_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA2_Stream2_IRQn 0 */
+
+  /* USER CODE END DMA2_Stream2_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_usart1_rx);
+  /* USER CODE BEGIN DMA2_Stream2_IRQn 1 */
+
+  /* USER CODE END DMA2_Stream2_IRQn 1 */
+}
+
 /* USER CODE BEGIN 1 */
-extern SemaphoreHandle_t xSemaphore_FPflag;
+//extern SemaphoreHandle_t xSemaphore_FPflag;
 
 void EXTI4_IRQHandler(void)
 {
@@ -192,67 +248,12 @@ void EXTI4_IRQHandler(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if(GPIO_Pin == GPIO_PIN_4){
 		if(HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_4) == 1){
-			//finger_status = 1;	//此处全局变量后面有余力可以改成二值信号量
 			BaseType_t xHigherPriorityTaskWoken = pdFALSE;
-			xSemaphoreGiveFromISR(xSemaphore_FPflag, &xHigherPriorityTaskWoken);
+//			xSemaphoreGiveFromISR(xSemaphore_FPflag, &xHigherPriorityTaskWoken);
 			
-			//上下文切换
 			portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 		}
 	}
 }
-
-void DMA1_Stream5_IRQHandler(void)
-{
-	HAL_DMA_IRQHandler(&hdma_usart2_rx);
-}
-
-//中断回调函数
-extern lv_disp_drv_t * disp_drv_p;
-extern SPI_HandleTypeDef hspi1;
-extern volatile uint8_t dma_complete;
-
-// SPI_DMA传输函数中设置的全满回调函数，最后一个执行的是这个回调函数
-void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi){
-	if(hspi->Instance == SPI1){
-//		dma_complete = 1;
-//		while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
-//		LCD_CS_SET;		//关闭CS之前必须保证已经处理完
-//		// LCD_SetWindows(0,0,lcddev.width-1,lcddev.height-1);
-//		
-//        // 通知LVGL传输完成
-//        if (disp_drv_p) {
-//            lv_disp_flush_ready(disp_drv_p);
-//        }
-	}
-}
-
-extern DMA_HandleTypeDef hdma_spi1_tx;
-extern DMA_HandleTypeDef hdma_spi1_rx;
-
-void DMA2_Stream3_IRQHandler(void)
-{
-  HAL_DMA_IRQHandler(&hdma_spi1_tx);
-}
-
-void DMA2_Stream0_IRQHandler(void)
-{
-  HAL_DMA_IRQHandler(&hdma_spi1_rx);
-}
-
-void USART2_IRQHandler(void)
-{
-	HAL_UART_IRQHandler(&huart2);
-	HAL_UART_RxIdleCallback(&huart2);
-}
-
-void TIM6_DAC_IRQHandler(void){
-	HAL_TIM_IRQHandler(&htim6);
-}
-
-void TIM7_IRQHandler(void){
-	HAL_TIM_IRQHandler(&htim7);
-}
-
 
 /* USER CODE END 1 */

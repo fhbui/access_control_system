@@ -1,5 +1,5 @@
-.\access_control_system\tim.o: ..\Code\BSP\tim.c
-.\access_control_system\tim.o: ..\Code\BSP\tim.h
+.\access_control_system\tim.o: ../Core/Src/tim.c
+.\access_control_system\tim.o: ../Core/Inc/tim.h
 .\access_control_system\tim.o: ../Core/Inc/main.h
 .\access_control_system\tim.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\access_control_system\tim.o: ../Core/Inc/stm32f4xx_hal_conf.h

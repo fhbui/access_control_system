@@ -4,7 +4,7 @@
 .\access_control_system\lv_gpu_d2_draw_label.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\renesas\../../draw/../misc/../lv_conf_internal.h
 .\access_control_system\lv_gpu_d2_draw_label.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_gpu_d2_draw_label.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\renesas\../../draw/../misc/../lv_conf_kconfig.h
-.\access_control_system\lv_gpu_d2_draw_label.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_gpu_d2_draw_label.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_gpu_d2_draw_label.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdbool.h
 .\access_control_system\lv_gpu_d2_draw_label.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\renesas\../../draw/../misc/lv_txt.h
 .\access_control_system\lv_gpu_d2_draw_label.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdarg.h

@@ -9,7 +9,7 @@
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_assert.h
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_internal.h
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/../lv_conf_kconfig.h
-.\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\qrcodegen.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_log.h
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_types.h
 .\access_control_system\qrcodegen.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\qrcode\../../../misc/lv_mem.h

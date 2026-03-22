@@ -11,8 +11,8 @@
  *********************/
 #include "lv_port_indev.h"
 #include "../../lvgl.h"
-#include "touch.h"
-#include "lcd.h"
+//#include "touch.h"
+//#include "lcd.h"
 /*********************
  *      DEFINES
  *********************/
@@ -184,7 +184,7 @@ void lv_port_indev_init(void)
 static void touchpad_init(void)
 {
     /*Your code comes here*/
-	TP_Init();
+//	TP_Init();
 }
 
 /*Will be called by the library to read the touchpad*/
@@ -211,13 +211,13 @@ static void touchpad_read(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
 static bool touchpad_is_pressed(void)
 {
     /*Your code comes here*/
-	if((tp_dev.sta)&(1<<0))//判断是否有点触摸？
-	{
-		if(tp_dev.x[0]<lcddev.width&&tp_dev.y[0]<lcddev.height)//在LCD范围内
-		{
-			return true;
-		}
-	}
+//	if((tp_dev.sta)&(1<<0))//判断是否有点触摸？
+//	{
+//		if(tp_dev.x[0]<lcddev.width&&tp_dev.y[0]<lcddev.height)//在LCD范围内
+//		{
+//			return true;
+//		}
+//	}
     return false;
 }
 
@@ -226,8 +226,8 @@ static void touchpad_get_xy(lv_coord_t * x, lv_coord_t * y)
 {
     /*Your code comes here*/
 
-    (*x) = tp_dev.x[0];
-    (*y) = tp_dev.y[0];
+//    (*x) = tp_dev.x[0];
+//    (*y) = tp_dev.y[0];
 }
 
 /*------------------

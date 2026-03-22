@@ -25,18 +25,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "dwt.h"
-#include "process.h"
-#include "lvgl.h"
-#include "lv_port_disp.h"
-#include "lv_port_indev.h"
-#include "my_ui.h"
-#include "as608.h"
-#include "RC522.h"
-#include "lcd.h"
-#include "data_flash.h"
-#include "tim.h"
+#include "ui_main.h"
 #include "log.h"
+#include "app_interface.h"
 
 #include "semphr.h"
 #include "queue.h"
@@ -67,13 +58,9 @@ static TaskHandle_t xHandle_TaskPCD;
 static TaskHandle_t xHandle_TaskFP;
 static TaskHandle_t xHandle_TaskLVGL;
 
-SemaphoreHandle_t xMutex_Flash;		//访问flash互斥量
-SemaphoreHandle_t xSemaphore_FPflag;	//和中断通信的信号量
+SemaphoreHandle_t mutex_flash;
 
-QueueHandle_t xQueue_PCDFlag;
-QueueHandle_t xQueue_FPFlag;
-QueueHandle_t queue_msgbox_info;
-// QueueHandle_t xQueue_State;
+QueueHandle_t ui_msg_queue;
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -90,10 +77,10 @@ const osThreadAttr_t defaultTask_attributes = {
 static void vTaskSysInfo(void *pvParameters);
 static void vTask_LEDTest(void *pvParameters);
 
-static void vTask_Door(void *pvParameters);
-static void vTask_PCD(void *pvParameters);
-static void vTask_FP(void *pvParameters);
-static void vTask_LVGL(void *pvParameters);
+static void task_door_control(void *pvParameters);
+static void task_card_proc(void *pvParameters);
+static void task_finger_proc(void *pvParameters);
+static void task_ui_proc(void *pvParameters);
 
 /* USER CODE END FunctionPrototypes */
 
@@ -113,12 +100,11 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
-	xMutex_Flash = xSemaphoreCreateMutex();
+	mutex_flash = xSemaphoreCreateMutex();
   /* USER CODE END RTOS_MUTEX */
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
-	xSemaphore_FPflag = xSemaphoreCreateBinary();
   /* USER CODE END RTOS_SEMAPHORES */
 
   /* USER CODE BEGIN RTOS_TIMERS */
@@ -127,9 +113,7 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
-	xQueue_PCDFlag = xQueueCreate(5, sizeof(pcd_flag_t));
-	xQueue_FPFlag = xQueueCreate(5, sizeof(fp_flag_t));
-  queue_msgbox_info = xQueueCreate(5, sizeof(ui_msgbox_info_t));
+  ui_msg_queue = xQueueCreate(5, sizeof(interface_ui_msg_t));
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -140,10 +124,10 @@ void MX_FREERTOS_Init(void) {
   /* add threads, ... */
   
 //  xTaskCreate(vTask_LEDTest, "LEDTest", 64, NULL, 2, NULL);
-//  xTaskCreate(vTaskSysInfo, "SysInfo", 256, NULL, 2, &xHandleSysInfo);	//128太小，直接HardFault
-  xTaskCreate(vTask_PCD, "PCD_Task", 128, NULL, 3, &xHandle_TaskPCD);
-  xTaskCreate(vTask_FP, "FP_Task", 128, NULL, 3, &xHandle_TaskFP);
-  xTaskCreate(vTask_LVGL, "LVGL_Task", 512, NULL, 3, &xHandle_TaskLVGL);
+//  xTaskCreate(vTaskSysInfo, "SysInfo", 256, NULL, 2, &xHandleSysInfo);
+  xTaskCreate(task_card_proc, "PCD_Task", 128, NULL, 3, &xHandle_TaskPCD);
+  xTaskCreate(task_finger_proc, "FP_Task", 128, NULL, 3, &xHandle_TaskFP);
+  xTaskCreate(task_ui_proc, "LVGL_Task", 512, NULL, 3, &xHandle_TaskLVGL);
   
   /* USER CODE END RTOS_THREADS */
 
@@ -174,116 +158,41 @@ void StartDefaultTask(void *argument)
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 
-/**
-  * @brief  LED测试函数
-  * @retval 无
-  */
 static void vTask_LEDTest(void *pvParameters){
 	while(1){
-		bsp_Delayms(1000);
+		HAL_Delay(1000);
 		LED_ON;
-		bsp_Delayms(1000);
+		HAL_Delay(1000);
 		LED_OFF;
 	}
 }
 
-/**
-  * @brief  OS系统运行信息打印
-  * @retval 无
-  */
 static void vTaskSysInfo(void *pvParameters){
 	uint8_t pcWriteBuffer[500];
 	int temp = 0;
 	while(1){
 		printf("=================================================\r\n");
-		printf("任务名   任务状态   优先级   剩余栈   任务序号\r\n");
 		vTaskList((char *)&pcWriteBuffer);
 		printf("%s\r\n", pcWriteBuffer);
-//		printf("\r\n任务名   运行计数   使用率\r\n");
-//		vTaskGetRunTimeStats((char *)&pcWriteBuffer);
-//		printf("%s\r\n", pcWriteBuffer);
-		
 		vTaskDelay(1000);
 	}
 }
 
-/**
-  * @brief  门任务函数
-  * @retval 无
-  */
 static void vTask_Door(void *pvParameters){
 	printf("The door is opened\r\n");
 }
 
-/**
-  * @brief  M1卡识别处理任务函数
-  * @retval 无
-  */
-static void vTask_PCD(void *pvParameters){
-  taskENTER_CRITICAL();
-  RC522_Init();
-  taskEXIT_CRITICAL();
-	RC522_Rese();	// 函数里面用到HAL_Delay的别放进临界段
-	RC522_Config_Type();  // 设置RC522的工作方式
-	pcd_flag_t flag = PCD_CHECK_EXIST;
+static void task_card_proc(void *pvParameters){
 
-	while(1){
-		if(xQueueReceive(xQueue_PCDFlag, &flag, 10) == pdPASS){
-      LOG_DEBUG(TAG, "pcd_flag is %d", flag);
-    }
-    pcd_scan(flag);
-    vTaskDelay(50);
-	}
 }
 
-/**
-  * @brief  指纹识别处理任务函数
-  * @retval 无
-  */
-static void vTask_FP(void *pvParameters){
-  taskENTER_CRITICAL();
-  as608_init();
-  taskEXIT_CRITICAL();
-	fp_flag_t flag = FP_VERIFY;
-  uint8_t ret = 0;
+static void task_finger_proc(void *pvParameters){
 
-	while(1){
-    BaseType_t res;
-    if(ret == 1 && (flag==FP_ADD)){
-      // 完成add、delete后一直等待UI切换到主页
-      res = xQueueReceive(xQueue_FPFlag, &flag, portMAX_DELAY);
-    }
-    else{
-		  res = xQueueReceive(xQueue_FPFlag, &flag, 10);
-    }
-    if(res == pdPASS){
-      LOG_DEBUG(TAG, "fp_flag is %d", flag);
-    }
-    
-		ret = fp_scan(flag);
-		vTaskDelay(50);
-	}
 }
 
-/**
-  * @brief  UI显示处理任务函数
-  * @retval 无
-  */
-static void vTask_LVGL(void *pvParameters){
-  taskENTER_CRITICAL();
-  lv_init();
-	lv_port_disp_init();
-	lv_port_indev_init();
-	my_ui_init();
-	MX_TIM7_Init();		//触屏周期中断
-  taskEXIT_CRITICAL();
-	while(1){
-			lv_timer_handler();
-			vTaskDelay(5);
-	}
+static void task_ui_proc(void *pvParameters){
+
 }
-
-
 
 /* USER CODE END Application */
 

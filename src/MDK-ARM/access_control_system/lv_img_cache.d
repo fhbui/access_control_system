@@ -3,7 +3,7 @@
 .\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../misc/../lv_conf_internal.h
 .\access_control_system\lv_img_cache.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../misc/../lv_conf_kconfig.h
-.\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_img_cache.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../misc/lv_log.h
 .\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../misc/lv_types.h
 .\access_control_system\lv_img_cache.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\draw\../misc/lv_mem.h

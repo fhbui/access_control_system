@@ -8,7 +8,7 @@
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/lv_draw.h
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/../lv_conf_internal.h
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/../lv_conf_kconfig.h
-.\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_hal_disp.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/../misc/lv_style.h
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/../misc/../font/lv_font.h
 .\access_control_system\lv_hal_disp.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\hal\../draw/../misc/../font/lv_symbol_def.h

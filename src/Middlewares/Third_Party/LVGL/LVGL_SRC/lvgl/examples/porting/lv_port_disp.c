@@ -11,7 +11,7 @@
  *********************/
 #include "lv_port_disp.h"
 #include <stdbool.h>
-#include "lcd.h"
+//#include "lcd.h"
 /*********************
  *      DEFINES
  *********************/
@@ -142,8 +142,8 @@ void lv_port_disp_init(void)
 static void disp_init(void)
 {
     /*Your code here*/
-	LCD_Init();
-	LCD_direction(2);	//0是竖屏
+//	LCD_Init();
+//	LCD_direction(2);
 }
 
 volatile bool disp_flush_enabled = true;
@@ -166,33 +166,18 @@ void disp_disable_update(void)
  *You can use DMA or any hardware acceleration to do this operation in the background but
  *'lv_disp_flush_ready()' has to be called when finished.*/
 
-lv_disp_drv_t * disp_drv_p;	//自定义设备变量以供中断使用
+lv_disp_drv_t * disp_drv_p;
 volatile uint8_t dma_complete = 1;
 
 static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p)
 {
     if(disp_flush_enabled) {
         /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one*/
-		
-//		if(dma_complete == 0)	return;
-//		else if(dma_complete==1){
-//			while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
-//			LCD_CS_SET;		//关闭CS之前必须保证已经处理完
-//			LCD_SetWindows(0,0,lcddev.width-1,lcddev.height-1);
-//		}
 
 		disp_drv_p = disp_drv;
 		dma_complete = 0;
-		
-		LCD_ColorFill(area->x1, area->y1, area->x2, area->y2, (uint16_t*)color_p);
-//		LCD_Fill_LVGL(area->x1, area->y1, area->x2, area->y2, color_p);
-		
-//		if(dma_complete==1){
-//			dma_complete = 0;
-////			while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
-//			LCD_CS_SET;		//关闭CS之前必须保证已经处理完
-//			LCD_SetWindows(0,0,lcddev.width-1,lcddev.height-1);
-//		}
+	
+//		LCD_ColorFill(area->x1, area->y1, area->x2, area->y2, (uint16_t*)color_p);
     }
 
     /*IMPORTANT!!!

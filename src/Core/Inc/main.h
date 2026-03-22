@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define TP_SCL_PIN_Pin GPIO_PIN_8
+#define TP_SCL_PIN_GPIO_Port GPIOB
+#define TP_SDA_PIN_Pin GPIO_PIN_9
+#define TP_SDA_PIN_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 #define LED_ON		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_RESET);

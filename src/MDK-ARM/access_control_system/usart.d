@@ -1,4 +1,5 @@
-.\access_control_system\usart.o: ..\Code\BSP\usart.c
+.\access_control_system\usart.o: ../Core/Src/usart.c
+.\access_control_system\usart.o: ../Core/Inc/usart.h
 .\access_control_system\usart.o: ../Core/Inc/main.h
 .\access_control_system\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\access_control_system\usart.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -33,4 +34,3 @@
 .\access_control_system\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 .\access_control_system\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 .\access_control_system\usart.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdio.h
-.\access_control_system\usart.o: ..\Code\BSP\usart.h

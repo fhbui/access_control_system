@@ -6,7 +6,7 @@
 .\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\ffmpeg\../../../../src/misc/../lv_conf_internal.h
 .\access_control_system\lv_ffmpeg.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\ffmpeg\../../../../src/misc/../lv_conf_kconfig.h
-.\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\examples\porting\../../lv_conf.h
+.\access_control_system\lv_ffmpeg.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/../../lv_conf.h
 .\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\ffmpeg\../../../../src/misc/lv_types.h
 .\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\ffmpeg\../../../../src/misc/lv_timer.h
 .\access_control_system\lv_ffmpeg.o: ..\Middlewares\Third_Party\LVGL\LVGL_SRC\lvgl\src\extra\libs\ffmpeg\../../../../src/misc/../hal/lv_hal_tick.h
