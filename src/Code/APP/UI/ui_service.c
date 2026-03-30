@@ -11,6 +11,9 @@
 // 相应外层包含
 #include "app_interface.h"
 
+extern TaskHandle_t task_card_handle;
+extern TaskHandle_t task_fp_handle;
+
 // 模块消息映射表
 
 
@@ -26,21 +29,27 @@ bool ui_service_require(ui_service_type_t type, uint32_t* param){
             break;
         case UI_SERVICE_SET_FINGER_VERIFY:
             // 设置指纹模块任务的任务通知
+            xTaskNotify(task_fp_handle, 0, eSetValueWithOverwrite);
             break;
         case UI_SERVICE_SET_FINGER_ADD:
             // 设置指纹模块任务的任务通知
+            xTaskNotify(task_fp_handle, 1, eSetValueWithOverwrite);
             break;
         case UI_SERVICE_SET_FINGER_DEL:
             // 设置指纹模块任务的任务通知
+            xTaskNotify(task_fp_handle, 2, eSetValueWithOverwrite);
             break;
         case UI_SERVICE_SET_CARD_VERIFY:
             // 设置读卡模块任务的任务通知
+            xTaskNotify(task_card_handle, 0, eSetValueWithOverwrite);
             break;
         case UI_SERVICE_SET_CARD_ADD:
             // 设置读卡模块任务的任务通知
+            xTaskNotify(task_card_handle, 1, eSetValueWithOverwrite);
             break;
         case UI_SERVICE_SET_CARD_DEL:
             // 设置读卡模块任务的任务通知
+            xTaskNotify(task_card_handle, 2, eSetValueWithOverwrite);
             break;
 		default:
 			break;

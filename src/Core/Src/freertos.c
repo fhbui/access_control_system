@@ -28,6 +28,7 @@
 #include "ui_main.h"
 #include "log.h"
 #include "app_interface.h"
+#include "app_main.h"
 
 #include "semphr.h"
 #include "queue.h"
@@ -54,13 +55,6 @@
 static const char* TAG = "freertos";
 
 static TaskHandle_t xHandleSysInfo;
-static TaskHandle_t xHandle_TaskPCD;
-static TaskHandle_t xHandle_TaskFP;
-static TaskHandle_t xHandle_TaskLVGL;
-
-SemaphoreHandle_t mutex_flash;
-
-QueueHandle_t ui_msg_queue;
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -76,11 +70,6 @@ const osThreadAttr_t defaultTask_attributes = {
 
 static void vTaskSysInfo(void *pvParameters);
 static void vTask_LEDTest(void *pvParameters);
-
-static void task_door_control(void *pvParameters);
-static void task_card_proc(void *pvParameters);
-static void task_finger_proc(void *pvParameters);
-static void task_ui_proc(void *pvParameters);
 
 /* USER CODE END FunctionPrototypes */
 
@@ -100,7 +89,6 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
-	mutex_flash = xSemaphoreCreateMutex();
   /* USER CODE END RTOS_MUTEX */
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
@@ -113,7 +101,6 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
-  ui_msg_queue = xQueueCreate(5, sizeof(interface_ui_msg_t));
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -122,13 +109,7 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
-  
-//  xTaskCreate(vTask_LEDTest, "LEDTest", 64, NULL, 2, NULL);
-//  xTaskCreate(vTaskSysInfo, "SysInfo", 256, NULL, 2, &xHandleSysInfo);
-  xTaskCreate(task_card_proc, "PCD_Task", 128, NULL, 3, &xHandle_TaskPCD);
-  xTaskCreate(task_finger_proc, "FP_Task", 128, NULL, 3, &xHandle_TaskFP);
-  xTaskCreate(task_ui_proc, "LVGL_Task", 512, NULL, 3, &xHandle_TaskLVGL);
-  
+  app_main();
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
@@ -176,22 +157,6 @@ static void vTaskSysInfo(void *pvParameters){
 		printf("%s\r\n", pcWriteBuffer);
 		vTaskDelay(1000);
 	}
-}
-
-static void vTask_Door(void *pvParameters){
-	printf("The door is opened\r\n");
-}
-
-static void task_card_proc(void *pvParameters){
-
-}
-
-static void task_finger_proc(void *pvParameters){
-
-}
-
-static void task_ui_proc(void *pvParameters){
-
 }
 
 /* USER CODE END Application */

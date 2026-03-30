@@ -16,12 +16,19 @@ typedef enum {
     BSP_I2C_MAX
 }bsp_i2c_id_t;
 
+typedef enum{
+    SDA_IO_STA_OUT = 0,
+    SDA_IO_STA_IN,
+}sda_io_status_t;
+
 // 软件 I2C 引脚配置结构体
 typedef struct {
     GPIO_TypeDef* scl_port;
     uint16_t      scl_pin;
     GPIO_TypeDef* sda_port;
     uint16_t      sda_pin;
+    // uint8_t is_external_pullup;
+    // sda_io_status_t sda_io_sta;
 }soft_i2c_cfg_t;
 
 // I2C 实例结构体

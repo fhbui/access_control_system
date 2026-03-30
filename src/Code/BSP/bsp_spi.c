@@ -1,7 +1,11 @@
 #include "bsp_spi.h"
+#include "spi.h"
+#include "main.h"
 
 static const bsp_spi_bus_t spi_bus_table[BSP_SPI_MAX] = {
-    NULL
+    {(void*)&hspi1},
+    {(void*)&hspi2},
+    {(void*)&hspi3}
 };
 
 /**
@@ -19,7 +23,7 @@ bsp_spi_status_t bsp_spi_exchange(bsp_spi_id_t id, const uint8_t *p_tx, uint8_t 
 {
     SPI_HandleTypeDef *hspi = spi_bus_table[id].instance;
     HAL_StatusTypeDef status = HAL_ERROR;
-
+	
     switch (mode) {
         case BSP_SPI_MODE_POLL:
             if (p_tx && p_rx) status = HAL_SPI_TransmitReceive(hspi, (uint8_t*)p_tx, p_rx, len, timeout);
@@ -54,17 +58,17 @@ bsp_spi_status_t bsp_spi_exchange(bsp_spi_id_t id, const uint8_t *p_tx, uint8_t 
  * @param  pdata 待发送数据的起始地址指针
  * @param  len   发送数据的长度 (字节) 
  * @return bsp_spi_status_t 传输结果状态 
- * @note 通过 inline 关键字消除函数调用开销，提高传输效率。
+ * @note 通过 inline 关键字消除函数调用开销，提高传输效率。（但是必须将内联函数的完整定义写在 .h 头文件中）
  */
-inline bsp_spi_status_t bsp_spi_write(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
+bsp_spi_status_t bsp_spi_write(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
     return bsp_spi_exchange(id, data, NULL, len, BSP_SPI_MODE_POLL, 100);
 }
 
-inline bsp_spi_status_t bsp_spi_write_it(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
+bsp_spi_status_t bsp_spi_write_it(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
     return bsp_spi_exchange(id, data, NULL, len, BSP_SPI_MODE_IT, 100);
 }
 
-inline bsp_spi_status_t bsp_spi_write_dma(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
+bsp_spi_status_t bsp_spi_write_dma(bsp_spi_id_t id, uint8_t *data, uint16_t len) {
     return bsp_spi_exchange(id, data, NULL, len, BSP_SPI_MODE_DMA, 100);
 }
 
@@ -75,14 +79,14 @@ inline bsp_spi_status_t bsp_spi_write_dma(bsp_spi_id_t id, uint8_t *data, uint16
  * @param  len   期望读取的字节数
  * @return bsp_spi_status_t 传输结果状态
  */
-inline bsp_spi_status_t bsp_spi_read(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
+bsp_spi_status_t bsp_spi_read(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
     return bsp_spi_exchange(id, NULL, buf, len, BSP_SPI_MODE_POLL, 100);
 }
 
-inline bsp_spi_status_t bsp_spi_read_it(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
+bsp_spi_status_t bsp_spi_read_it(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
     return bsp_spi_exchange(id, NULL, buf, len, BSP_SPI_MODE_IT, 100);
 }
 
-inline bsp_spi_status_t bsp_spi_read_dma(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
+bsp_spi_status_t bsp_spi_read_dma(bsp_spi_id_t id, uint8_t *buf, uint16_t len) {
     return bsp_spi_exchange(id, NULL, buf, len, BSP_SPI_MODE_DMA, 100);
 }

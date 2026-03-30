@@ -138,7 +138,7 @@
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2V8M.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Code/BSP;../Code/UI;../Code;../Middlewares/Third_Party/LVGL/LVGL_SRC;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting;../Middlewares/Third_Party/LVGL/APPS/demos;../Middlewares/Third_Party/LVGL/APPS/demos/widgets/assets;..\Code\APP\UI;..\Code\APP;..\Code\Components;..\Code\Services</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Code/BSP;../Code/UI;../Code;../Middlewares/Third_Party/LVGL/LVGL_SRC;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src;../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting;../Middlewares/Third_Party/LVGL/APPS/demos;../Middlewares/Third_Party/LVGL/APPS/demos/widgets/assets;../Code/APP/UI;../Code/APP;../Code/Components;../Code/Services</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -888,40 +888,55 @@
               <FileType>1</FileType>
               <FilePath>..\Code\APP\app_main.c</FilePath>
             </File>
+            <File>
+              <FileName>app_main.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\APP\app_main.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Code/Service</GroupName>
           <Files>
             <File>
-              <FileName>auth_mgr.c</FileName>
+              <FileName>svr_card.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Code\Services\auth_mgr.c</FilePath>
+              <FilePath>..\Code\Services\svr_card.c</FilePath>
             </File>
             <File>
-              <FileName>auth_mgr.h</FileName>
+              <FileName>svr_card.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Code\Services\auth_mgr.h</FilePath>
+              <FilePath>..\Code\Services\svr_card.h</FilePath>
             </File>
             <File>
-              <FileName>lcd.c</FileName>
+              <FileName>svr_doorlock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Code\Services\lcd.c</FilePath>
+              <FilePath>..\Code\Services\svr_doorlock.c</FilePath>
             </File>
             <File>
-              <FileName>lcd.h</FileName>
+              <FileName>svr_doorlock.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Code\Services\lcd.h</FilePath>
+              <FilePath>..\Code\Services\svr_doorlock.h</FilePath>
             </File>
             <File>
-              <FileName>touch.c</FileName>
+              <FileName>svr_fingerprint.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Code\Services\touch.c</FilePath>
+              <FilePath>..\Code\Services\svr_fingerprint.c</FilePath>
             </File>
             <File>
-              <FileName>touch.h</FileName>
+              <FileName>svr_fingerprint.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\Code\Services\touch.h</FilePath>
+              <FilePath>..\Code\Services\svr_fingerprint.h</FilePath>
+            </File>
+            <File>
+              <FileName>svr_storage.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Services\svr_storage.c</FilePath>
+            </File>
+            <File>
+              <FileName>svr_storage.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Services\svr_storage.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -967,6 +982,16 @@
               <FileName>w25qxx.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Code\Components\w25qxx.h</FilePath>
+            </File>
+            <File>
+              <FileName>as608.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Components\as608.c</FilePath>
+            </File>
+            <File>
+              <FileName>as608.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Components\as608.h</FilePath>
             </File>
           </Files>
         </Group>

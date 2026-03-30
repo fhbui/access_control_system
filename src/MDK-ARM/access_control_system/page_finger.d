@@ -129,6 +129,6 @@
 .\access_control_system\page_finger.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src/extra/widgets/led/lv_led.h
 .\access_control_system\page_finger.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
 .\access_control_system\page_finger.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src/extra/widgets/span/lv_span.h
-.\access_control_system\page_finger.o: ..\Code\APP\UI\ui_widgets.h
-.\access_control_system\page_finger.o: ..\Code\APP\UI\ui_router.h
-.\access_control_system\page_finger.o: ..\Code\APP\UI\ui_service.h
+.\access_control_system\page_finger.o: ../Code/APP/UI/ui_widgets.h
+.\access_control_system\page_finger.o: ../Code/APP/UI/ui_router.h
+.\access_control_system\page_finger.o: ../Code/APP/UI/ui_service.h

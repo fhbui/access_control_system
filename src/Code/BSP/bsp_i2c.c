@@ -19,6 +19,7 @@ static void soft_i2c_start(soft_i2c_cfg_t* cfg){
 }
 
 static void soft_i2c_send_byte(soft_i2c_cfg_t* cfg, uint8_t byte){
+
     HAL_GPIO_WritePin(cfg->scl_port, cfg->scl_pin, 0);
     for(int i=0; i<8; i++){
         // MSB先行
@@ -32,9 +33,14 @@ static void soft_i2c_send_byte(soft_i2c_cfg_t* cfg, uint8_t byte){
 }
 
 static uint8_t soft_i2c_read_byte(soft_i2c_cfg_t* cfg){
-    // 如果配置为推挽输出，则需要切换GPIO工作模式为输入模式，以便从机驱动电平
+    // 释放 SDA 线，让从机可以驱动它
+    HAL_GPIO_WritePin(cfg->sda_port, cfg->sda_pin, 1); 
+    soft_i2c_delay();
+    
     uint8_t recv_byte = 0x00, temp;
     HAL_GPIO_WritePin(cfg->scl_port, cfg->scl_pin, 0);
+    soft_i2c_delay();
+
     for(int i=0; i<8; i++){
         // MSB先行
         HAL_GPIO_WritePin(cfg->scl_port, cfg->scl_pin, 1);
@@ -70,6 +76,7 @@ static void soft_i2c_send_nack(soft_i2c_cfg_t* cfg){
 
 static uint8_t soft_i2c_wait_ack(soft_i2c_cfg_t* cfg){
     // 如果配置为推挽输出，则需要切换GPIO工作模式为输入模式，以便从机驱动电平
+    
     HAL_GPIO_WritePin(cfg->sda_port, cfg->sda_pin, 1);  // 显式释放 SDA（建议）
     soft_i2c_delay();
     HAL_GPIO_WritePin(cfg->scl_port, cfg->scl_pin, 1);
@@ -205,8 +212,4 @@ bsp_i2c_status_t bsp_i2c_read(bsp_i2c_id_t id, uint16_t dev_addr, uint16_t mem_a
         soft_i2c_stop(cfg);
         return BSP_I2C_OK;
     }
-}
-
-bsp_i2c_status_t bsp_i2c_test(bsp_i2c_id_t id){
-
 }

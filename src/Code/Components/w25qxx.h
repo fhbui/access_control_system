@@ -1,7 +1,7 @@
 #ifndef __W25QXX_H
 #define __W25QXX_H
 
-#include "main.h"
+#include <stdint.h>
 
 #define W25QXX_PageSize              256
 #define W25QXX_PerWritePageSize      256
@@ -32,7 +32,6 @@ uint8_t w25qxx_erase_sector(uint32_t sector_addr, uint32_t num);
 uint8_t w25qxx_erase_block(uint32_t block_addr, uint32_t num);
 void w25qxx_erase_chip(void);
 void w25qxx_buffer_read(uint32_t read_addr, uint8_t* pbuf, uint32_t numbyte);
-void w25qxx_page_write(uint32_t write_addr, uint8_t* pbuf, uint32_t numbyte);
 void w25qxx_buffer_write(uint32_t write_addr, uint8_t* pbuf, uint32_t numbyte);
 void w25qxx_test(void);
 #endif

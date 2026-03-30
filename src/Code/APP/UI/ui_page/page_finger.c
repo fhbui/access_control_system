@@ -21,7 +21,6 @@ void page_finger_init(int status){
         ui_widget_create_page_title(scr, "Delete Fingerprint Page");
         ui_service_require(UI_SERVICE_SET_FINGER_DEL, NULL);
     }
-
     // 页面加载
     lv_scr_load_anim(scr, LV_SCR_LOAD_ANIM_FADE_ON, 200, 0, false);     // 不销毁主页状态
 }

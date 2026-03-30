@@ -24,6 +24,7 @@ typedef struct {
     uint16_t back_color;
 }ili9341_dev_t;
 
+typedef void (*ili9341_callback_t)(void* usr_data);
 extern ili9341_dev_t ili9341_dev;
 
 /* ---------------- 基础接口 ---------------- */
@@ -35,6 +36,8 @@ void ili9341_clear(uint16_t color);
 /* ---------------- 绘图接口 ---------------- */
 void ili9341_draw_point(uint16_t x, uint16_t y, uint16_t color);
 void ili9341_fill(uint16_t xs, uint16_t ys, uint16_t xe, uint16_t ye, uint16_t color);
-void ili9341_draw_line(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color);
+void ili9341_draw_bitmap(uint16_t xs, uint16_t ys, uint16_t xe, uint16_t ye, uint16_t *color_p);
+void ili9341_draw_bitmap_register_cb(ili9341_callback_t cb, void* usr_data);
+void ili9341_draw_bitmap_finish(void);
 
 #endif

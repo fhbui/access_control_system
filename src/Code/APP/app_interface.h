@@ -14,6 +14,6 @@ typedef struct {
     char* usr_data;
 }interface_ui_msg_t;
 
-extern QueueHandle_t ui_msg_queue;     // 定义在freertos.c
+extern QueueHandle_t ui_msg_queue;     // 定义在app_main.c
 
 #endif

@@ -22,7 +22,6 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "lvgl.h"
 
 #include "FreeRTOS.h"
 #include "semphr.h"
@@ -59,6 +58,7 @@ unsigned char uartRxData;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern DMA_HandleTypeDef hdma_spi1_tx;
 extern TIM_HandleTypeDef htim6;
 extern TIM_HandleTypeDef htim7;
 extern DMA_HandleTypeDef hdma_usart1_rx;
@@ -237,6 +237,20 @@ void DMA2_Stream2_IRQHandler(void)
   /* USER CODE END DMA2_Stream2_IRQn 1 */
 }
 
+/**
+  * @brief This function handles DMA2 stream3 global interrupt.
+  */
+void DMA2_Stream3_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA2_Stream3_IRQn 0 */
+
+  /* USER CODE END DMA2_Stream3_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_spi1_tx);
+  /* USER CODE BEGIN DMA2_Stream3_IRQn 1 */
+
+  /* USER CODE END DMA2_Stream3_IRQn 1 */
+}
+
 /* USER CODE BEGIN 1 */
 //extern SemaphoreHandle_t xSemaphore_FPflag;
 
@@ -254,6 +268,13 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 			portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
 		}
 	}
+}
+
+#include "ili9341.h"
+void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi){
+	if(hspi->Instance == SPI1){
+		ili9341_draw_bitmap_finish();
+  }
 }
 
 /* USER CODE END 1 */

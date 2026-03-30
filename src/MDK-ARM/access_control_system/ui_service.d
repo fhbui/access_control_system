@@ -142,4 +142,4 @@
 .\access_control_system\ui_service.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 .\access_control_system\ui_service.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 .\access_control_system\ui_service.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
-.\access_control_system\ui_service.o: ..\Code\APP\app_interface.h
+.\access_control_system\ui_service.o: ../Code/APP/app_interface.h

@@ -44,8 +44,9 @@
 .\access_control_system\freertos.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdio.h
 .\access_control_system\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 .\access_control_system\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-.\access_control_system\freertos.o: ..\Code\APP\UI\ui_main.h
+.\access_control_system\freertos.o: ../Code/APP/UI/ui_main.h
 .\access_control_system\freertos.o: ../Code/log.h
-.\access_control_system\freertos.o: ..\Code\APP\app_interface.h
+.\access_control_system\freertos.o: ../Code/APP/app_interface.h
 .\access_control_system\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+.\access_control_system\freertos.o: ../Code/APP/app_main.h
 .\access_control_system\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h

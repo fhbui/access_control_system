@@ -70,7 +70,6 @@ void page_main_init(void){
         handle.init_flag = 1;
         handle.scr = scr;
     }
-
     // 页面加载
     lv_scr_load_anim(handle.scr, LV_SCR_LOAD_ANIM_FADE_ON, 200, 0, true);
 }

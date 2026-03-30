@@ -1,5 +1,7 @@
 .\access_control_system\bsp_spi.o: ..\Code\BSP\bsp_spi.c
 .\access_control_system\bsp_spi.o: ..\Code\BSP\bsp_spi.h
+.\access_control_system\bsp_spi.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
+.\access_control_system\bsp_spi.o: ../Core/Inc/spi.h
 .\access_control_system\bsp_spi.o: ../Core/Inc/main.h
 .\access_control_system\bsp_spi.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\access_control_system\bsp_spi.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -8,7 +10,6 @@
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Include/core_cm4.h
-.\access_control_system\bsp_spi.o: J:\software\Keil_v5_32\ARM\ARMCC\Bin\..\include\stdint.h
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Include/cmsis_version.h
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 .\access_control_system\bsp_spi.o: ../Drivers/CMSIS/Include/cmsis_armcc.h

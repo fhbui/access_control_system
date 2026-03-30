@@ -132,3 +132,4 @@
 .\access_control_system\ui_main.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/lv_port_disp.h
 .\access_control_system\ui_main.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/examples/porting/lv_port_indev.h
 .\access_control_system\ui_main.o: ..\Code\APP\UI\ui_service.h
+.\access_control_system\ui_main.o: ..\Code\APP\UI\ui_router.h

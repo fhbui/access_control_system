@@ -2,20 +2,21 @@
 
 // ===================================
 // default
-#define W25Q_CS_SET(sta)	NULL
-#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    NULL
-#define GET_SPI_BUSY_FALG()     NULL
+//#define W25Q_CS_SET(sta)	NULL
+//#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    NULL
+//#define GET_SPI_BUSY_FALG()     NULL
 
-//#include "spi.h"
-//#define W25Q_CS_SET(sta)	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3, sta)
-//#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    HAL_SPI_TransmitReceive(&hspi2, p_txdata, p_rxdata, num, W25QXX_TIMEOUT)
-//#define GET_SPI_BUSY_FALG()     __HAL_SPI_GET_FLAG(&hspi2, SPI_FLAG_BSY)
+#include "bsp_spi.h"
+#include "main.h"
+#define W25Q_CS_SET(sta)	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15, sta)
+#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    bsp_spi_exchange(BSP_SPI_2, p_txdata, p_rxdata, num, BSP_SPI_MODE_POLL, W25QXX_TIMEOUT)
+#define GET_SPI_BUSY_FALG()     NULL
 // ===================================
 
 uint8_t w25qxx_sendbyte(uint8_t cmd){
 	uint8_t rx_data;
 	uint8_t tx_data = cmd;
-	SPI_TANS_RECV(&tx_data, &rx_data, 1);
+	SPI_TANS_RECV(&tx_data, &rx_data, 1000);
 	return rx_data;
 }
 

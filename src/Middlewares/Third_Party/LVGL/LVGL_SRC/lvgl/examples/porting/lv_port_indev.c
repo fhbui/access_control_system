@@ -11,8 +11,9 @@
  *********************/
 #include "lv_port_indev.h"
 #include "../../lvgl.h"
-//#include "touch.h"
-//#include "lcd.h"
+#include "ft6336.h"
+#include "ili9341.h"
+
 /*********************
  *      DEFINES
  *********************/
@@ -184,7 +185,7 @@ void lv_port_indev_init(void)
 static void touchpad_init(void)
 {
     /*Your code comes here*/
-//	TP_Init();
+    ft6336_init();
 }
 
 /*Will be called by the library to read the touchpad*/
@@ -211,13 +212,10 @@ static void touchpad_read(lv_indev_drv_t * indev_drv, lv_indev_data_t * data)
 static bool touchpad_is_pressed(void)
 {
     /*Your code comes here*/
-//	if((tp_dev.sta)&(1<<0))//判断是否有点触摸？
-//	{
-//		if(tp_dev.x[0]<lcddev.width&&tp_dev.y[0]<lcddev.height)//在LCD范围内
-//		{
-//			return true;
-//		}
-//	}
+    ft6336_scan();
+    if(fp_data.point_num > 0 && fp_data.point_num <= FT6336_MAX_TOUCH){
+        return true;
+    }
     return false;
 }
 
@@ -225,9 +223,23 @@ static bool touchpad_is_pressed(void)
 static void touchpad_get_xy(lv_coord_t * x, lv_coord_t * y)
 {
     /*Your code comes here*/
+    if(ili9341_dev.dir == 0){
+        (*x) = fp_data.points[0].x;
+        (*y) = fp_data.points[0].y;
+    }
+    else if(ili9341_dev.dir == 1){
+        (*x) = fp_data.points[0].y;
+        (*y) = ili9341_dev.height - fp_data.points[0].x;
+    }
+	else if(ili9341_dev.dir == 2){
+		(*x) = ili9341_dev.width - fp_data.points[0].x;
+        (*y) = ili9341_dev.height - fp_data.points[0].y;
+	}
+	else if(ili9341_dev.dir == 3){
+		(*x) = ili9341_dev.width - fp_data.points[0].y;
+        (*y) = fp_data.points[0].x;
+	}
 
-//    (*x) = tp_dev.x[0];
-//    (*y) = tp_dev.y[0];
 }
 
 /*------------------

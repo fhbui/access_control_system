@@ -1,11 +1,12 @@
 #ifndef __BSP_SPI_H
 #define __BSP_SPI_H
 
-#include "main.h"
 #include <stdint.h>
 
 typedef enum{
     BSP_SPI_1 = 0,
+	BSP_SPI_2,
+    BSP_SPI_3,
     BSP_SPI_MAX
 }bsp_spi_id_t;
 
@@ -18,10 +19,10 @@ typedef enum{
 typedef struct{
     void* instance;
     // bsp_spi_mode_t transmit_mode;    // 不应该配置死
-    GPIO_TypeDef* cs_port;
-    uint16_t cs_pin;
-    uint8_t* recv_buf;
-    uint16_t recv_size;
+    // GPIO_TypeDef* cs_port;
+    // uint16_t cs_pin;
+    // uint8_t* recv_buf;
+    // uint16_t recv_size;
 }bsp_spi_bus_t;
 
 typedef enum{
