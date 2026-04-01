@@ -938,6 +938,16 @@
               <FileType>5</FileType>
               <FilePath>..\Code\Services\svr_storage.h</FilePath>
             </File>
+            <File>
+              <FileName>svr_ota.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Services\svr_ota.c</FilePath>
+            </File>
+            <File>
+              <FileName>svr_ota.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Services\svr_ota.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -992,6 +1002,46 @@
               <FileName>as608.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\Code\Components\as608.h</FilePath>
+            </File>
+            <File>
+              <FileName>aes128.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Components\aes128.c</FilePath>
+            </File>
+            <File>
+              <FileName>aes128.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Components\aes128.h</FilePath>
+            </File>
+            <File>
+              <FileName>bootloader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Components\bootloader.c</FilePath>
+            </File>
+            <File>
+              <FileName>bootloader.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Components\bootloader.h</FilePath>
+            </File>
+            <File>
+              <FileName>hmac.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Components\hmac.c</FilePath>
+            </File>
+            <File>
+              <FileName>hmac.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Components\hmac.h</FilePath>
+            </File>
+            <File>
+              <FileName>sha256.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\Components\sha256.c</FilePath>
+            </File>
+            <File>
+              <FileName>sha256.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Components\sha256.h</FilePath>
             </File>
           </Files>
         </Group>

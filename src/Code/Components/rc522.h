@@ -83,6 +83,7 @@ typedef enum {
 
 void rc522_init(void);
 rc522_status_t rc522_identify_card(uint8_t *uid);
+rc522_status_t rc522_select_card(uint8_t *uid);
 rc522_status_t rc522_authenticate(uint8_t auth_mode, uint8_t addr, uint8_t *key, uint8_t *uid);
 rc522_status_t rc522_read_block(uint8_t addr, uint8_t *data);
 rc522_status_t rc522_write_block(uint8_t addr, uint8_t *data);

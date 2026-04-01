@@ -9,14 +9,14 @@
 #include "bsp_spi.h"
 #include "main.h"
 #define W25Q_CS_SET(sta)	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_15, sta)
-#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    bsp_spi_exchange(BSP_SPI_2, p_txdata, p_rxdata, num, BSP_SPI_MODE_POLL, W25QXX_TIMEOUT)
+#define SPI_TANS_RECV(p_txdata, p_rxdata, num)    bsp_spi_exchange(BSP_SPI_3, p_txdata, p_rxdata, num, BSP_SPI_MODE_POLL, W25QXX_TIMEOUT)
 #define GET_SPI_BUSY_FALG()     NULL
 // ===================================
 
 uint8_t w25qxx_sendbyte(uint8_t cmd){
 	uint8_t rx_data;
 	uint8_t tx_data = cmd;
-	SPI_TANS_RECV(&tx_data, &rx_data, 1000);
+	SPI_TANS_RECV(&tx_data, &rx_data, 1);
 	return rx_data;
 }
 
@@ -228,7 +228,7 @@ void w25qxx_test(void){
 	uint8_t data[2] = {1,2};
 	w25qxx_buffer_write(0x020000, data, 2);
 	uint8_t temp[2] = {0};
-	w25qxx_buffer_read(0x020000, data, 2);
+	w25qxx_buffer_read(0x020000, temp, 2);
 	
-	printf("temp is %d %d\r\n", data[0], data[1]);
+	printf("temp is %d %d\r\n", temp[0], temp[1]);
 }

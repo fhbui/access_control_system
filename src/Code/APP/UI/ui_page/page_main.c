@@ -1,6 +1,7 @@
 #include "lvgl.h"
 #include "ui_router.h"
 #include "ui_widgets.h"
+#include "ui_service.h"
 
 typedef struct{
     lv_obj_t* scr;
@@ -46,6 +47,8 @@ static void page_main_del_event_cb(lv_event_t * e){
  */
 void page_main_init(void){
     // 业务逻辑处理
+    ui_service_require(UI_SERVICE_SET_FINGER_VERIFY, NULL);
+    ui_service_require(UI_SERVICE_SET_CARD_VERIFY, NULL);
 
     // UI设计
     if(!handle.init_flag){

@@ -22,74 +22,44 @@ Dialog DLL:      TCM.DLL V1.46.0.0
  
 <h2>Project:</h2>
 J:\my_project\04_my_github\access_control_system\src\MDK-ARM\access_control_system.uvprojx
-Project File Date:  03/29/2026
+Project File Date:  03/31/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'J:\software\Keil_v5_32\ARM\ARMCC\Bin'
 Build target 'access_control_system'
-compiling page_finger.c...
-../Code/APP/UI/ui_router.h(19): warning:  #1-D: last line of file ends without a newline
+compiling svr_card.c...
+..\Code\Services\svr_card.h(17): warning:  #1-D: last line of file ends without a newline
   #endif
-../Code/APP/UI/ui_service.h(30): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\Code\APP\UI\ui_page\page_finger.c(26): warning:  #1-D: last line of file ends without a newline
-  }
-..\Code\APP\UI\ui_page\page_finger.c: 3 warnings, 0 errors
-compiling ui_service.c...
-..\Code\APP\UI\ui_service.h(30): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\Code\APP\UI\ui_router.h(19): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/APP/app_interface.h(19): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\Code\APP\UI\ui_service.c(20): warning:  #177-D: variable "_service_type_queue"  was declared but never referenced
-  static QueueHandle_t _service_type_queue;
-..\Code\APP\UI\ui_service.c: 4 warnings, 0 errors
-compiling freertos.c...
-../Code/APP/UI/ui_main.h(6): warning:  #1-D: last line of file ends without a newline
+../Code/Components/rc522.h(92): warning:  #1-D: last line of file ends without a newline
   #endif
 ../Code/log.h(19): warning:  #1-D: last line of file ends without a newline
   #endif
-../Code/APP/app_interface.h(19): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/APP/app_main.h(6): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Src/freertos.c(112): warning:  #223-D: function "app_main" declared implicitly
-    app_main();
-../Core/Src/freertos.c(153): warning:  #177-D: variable "temp"  was declared but never referenced
-  	int temp = 0;
-../Core/Src/freertos.c(55): warning:  #177-D: variable "TAG"  was declared but never referenced
-  static const char* TAG = "freertos";
-../Core/Src/freertos.c(57): warning:  #177-D: variable "xHandleSysInfo"  was declared but never referenced
-  static TaskHandle_t xHandleSysInfo;
-../Core/Src/freertos.c(151): warning:  #177-D: function "vTaskSysInfo"  was declared but never referenced
-  static void vTaskSysInfo(void *pvParameters){
-../Core/Src/freertos.c(142): warning:  #177-D: function "vTask_LEDTest"  was declared but never referenced
-  static void vTask_LEDTest(void *pvParameters){
-../Core/Src/freertos.c: 10 warnings, 0 errors
-compiling app_main.c...
-../Code/BSP/bsp_uart.h(36): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/Components/ft6336.h(44): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/Components/ili9341.h(43): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/Components/rc522.h(91): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/APP/UI/ui_main.h(6): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Code/log.h(19): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\Code\APP\app_main.c(76): warning:  #223-D: function "log_msg_level" declared implicitly
-  				LOG_DEBUG(TAG, "card verify state");
-..\Code\APP\app_main.c(107): warning:  #1-D: last line of file ends without a newline
-  }
-..\Code\APP\app_main.c: 8 warnings, 0 errors
+..\Code\Services\svr_card.c(53): warning:  #223-D: function "log_msg_level" declared implicitly
+          LOG_ERROR(TAG, "start addr info error");
+..\Code\Services\svr_card.c(68): warning:  #223-D: function "log_msg_level" declared implicitly
+  		LOG_DEBUG(TAG, "uid is %d %d %d %d", uid[0], uid[1], uid[2], uid[3]);
+..\Code\Services\svr_card.c(78): warning:  #223-D: function "log_msg_level" declared implicitly
+  		LOG_DEBUG(TAG, "get_id failed");
+..\Code\Services\svr_card.c(111): warning:  #223-D: function "log_msg_level" declared implicitly
+  	LOG_DEBUG(TAG, "new card sector is 0x%08x", active_start_addr);
+..\Code\Services\svr_card.c(132): warning:  #223-D: function "log_msg_level" declared implicitly
+  				LOG_DEBUG(TAG, "card exist in addr: 0x%08x", search_addr);
+..\Code\Services\svr_card.c(162): warning:  #223-D: function "log_msg_level" declared implicitly
+  			LOG_DEBUG(TAG, "card sector has be filled");
+..\Code\Services\svr_card.c(170): warning:  #223-D: function "log_msg_level" declared implicitly
+  		LOG_DEBUG(TAG, "card save to addr: 0x%08x", search_addr);
+..\Code\Services\svr_card.c(176): warning:  #223-D: function "log_msg_level" declared implicitly
+  	LOG_DEBUG(TAG, "card save error");
+..\Code\Services\svr_card.c(156): warning:  #177-D: variable "read_id"  was declared but never referenced
+      uint8_t read_id[4];
+..\Code\Services\svr_card.c(189): warning:  #223-D: function "log_msg_level" declared implicitly
+          LOG_DEBUG(TAG, "card delete from addr: 0x%08x", del_addr);
+..\Code\Services\svr_card.c: 13 warnings, 0 errors
 linking...
-Program Size: Code=178024 RO-data=18872 RW-data=804 ZI-data=83580  
+Program Size: Code=180616 RO-data=18884 RW-data=844 ZI-data=83580  
 FromELF: creating hex file...
 After Build - User command #1: J:\software\Keil_v5_32\ARM\ARMCC\bin\fromelf.exe --bin --output .\access_control_system\access_control_system.bin .\access_control_system\*.axf
-".\access_control_system\access_control_system.axf" - 0 Error(s), 25 Warning(s).
+".\access_control_system\access_control_system.axf" - 0 Error(s), 13 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -113,7 +83,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.4.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:07
+Build Time Elapsed:  00:00:10
 </pre>
 </body>
 </html>

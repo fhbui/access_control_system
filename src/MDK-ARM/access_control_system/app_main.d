@@ -37,6 +37,7 @@
 .\access_control_system\app_main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 .\access_control_system\app_main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 .\access_control_system\app_main.o: ../Code/Components/rc522.h
+.\access_control_system\app_main.o: ../Code/Components/w25qxx.h
 .\access_control_system\app_main.o: ../Code/BSP/bsp_dwt.h
 .\access_control_system\app_main.o: ../Code/APP/UI/ui_main.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/lvgl.h
@@ -168,13 +169,17 @@
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/LVGL/LVGL_SRC/lvgl/src/extra/widgets/span/lv_span.h
 .\access_control_system\app_main.o: ../Code/log.h
-.\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+.\access_control_system\app_main.o: ..\Code\APP\app_interface.h
+.\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 .\access_control_system\app_main.o: ../Core/Inc/FreeRTOSConfig.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+.\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 .\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-.\access_control_system\app_main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+.\access_control_system\app_main.o: ../Code/Services/svr_card.h
+.\access_control_system\app_main.o: ../Code/Services/svr_fingerprint.h
+.\access_control_system\app_main.o: ../Code/Services/svr_doorlock.h

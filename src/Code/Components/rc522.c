@@ -197,8 +197,25 @@ rc522_status_t rc522_identify_card(uint8_t *uid){
 			return RC522_ERR; // 校验失败，说明是无效读取
 		}
     }
-    
     return status;
+}
+
+/**
+ * @brief 卡选择操作
+ * @param uid 目标卡UID
+ * @return rc522_status_t 
+ */
+rc522_status_t rc522_select_card(uint8_t *uid) {
+    uint8_t buf[MAXRLEN];
+    uint32_t len;
+    
+    buf[0] = PICC_ANTICOLL1; // 0x93
+    buf[1] = 0x70;
+    memcpy(&buf[2], uid, 4);
+    buf[6] = buf[2] ^ buf[3] ^ buf[4] ^ buf[5]; // BCC校验
+    rc522_calculate_crc(buf, 7, &buf[7]);
+    
+    return rc522_com_mf522(PCD_TRANSCEIVE, buf, 9, buf, &len);
 }
 
 /**
