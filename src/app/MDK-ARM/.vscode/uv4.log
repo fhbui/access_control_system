@@ -1,0 +1,30 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'J:\software\Keil_v5_32\ARM\ARMCC\Bin'
+Build target 'access_control_system'
+compiling svr_ota.c...
+..\Code\Services\svr_ota.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/BSP/bsp_flash.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/BSP/bsp_uart.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Components/aes128.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Components/hmac.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/log.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Code\Services\svr_ota.c(108): warning:  #223-D: function "log_msg_level" declared implicitly
+  				LOG_DEBUG(TAG, "write to 0x%8x", SECTION_BKU_ADDR + 2 + svr_ota_mgr.download_size);
+..\Code\Services\svr_ota.c(126): warning:  #223-D: function "log_msg_level" declared implicitly
+  				LOG_ERROR(TAG, "cmd is %d", info.cmd);
+..\Code\Services\svr_ota.c(136): warning:  #223-D: function "log_msg_level" declared implicitly
+                      LOG_ERROR(TAG, "signature verification error %02x", signature_res[i]);
+..\Code\Services\svr_ota.c(144): warning:  #223-D: function "log_msg_level" declared implicitly
+              LOG_INFO(TAG, "download success");
+..\Code\Services\svr_ota.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=24264 RO-data=1436 RW-data=312 ZI-data=40808  
+FromELF: creating hex file...
+After Build - User command #1: J:\software\Keil_v5_32\ARM\ARMCC\bin\fromelf.exe --bin --output .\access_control_system\access_control_system.bin .\access_control_system\*.axf
+".\access_control_system\access_control_system.axf" - 0 Error(s), 10 Warning(s).
+Build Time Elapsed:  00:00:05

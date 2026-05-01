@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: starrysky starrysky, starrysky, LIC=ZB4EI-TL3VG-KPVZY-I4TUW-ELB21-C6CP3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.32.0.0
+Toolchain Path:  J:\software\Keil_v5_32\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+J:\my_project\04_my_github\access_control_system\src\app\MDK-ARM\access_control_system.uvprojx
+Project File Date:  04/25/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'J:\software\Keil_v5_32\ARM\ARMCC\Bin'
+Build target 'access_control_system'
+compiling app_main.c...
+../Code/BSP/bsp_uart.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Components/ft6336.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Components/ili9341.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Components/rc522.h(92): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/APP/UI/ui_main.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/log.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Code\APP\app_interface.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Services/svr_card.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Services/svr_fingerprint.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Services/svr_doorlock.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Code/Services/svr_ota.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Code\APP\app_main.c(37): warning:  #223-D: function "log_msg_level" declared implicitly
+  	LOG_DEBUG(TAG, "test");
+..\Code\APP\app_main.c(127): warning:  #223-D: function "log_msg_level" declared implicitly
+  				LOG_ERROR(TAG, "card error state");
+..\Code\APP\app_main.c(158): warning:  #177-D: variable "notified_val"  was declared but never referenced
+  	uint32_t notified_val = 0;
+..\Code\APP\app_main.c(178): warning:  #1-D: last line of file ends without a newline
+  }
+..\Code\APP\app_main.c(80): warning:  #177-D: function "task_ui"  was declared but never referenced
+  static void task_ui(void *pvParameters){
+..\Code\APP\app_main.c(88): warning:  #177-D: function "task_card"  was declared but never referenced
+  static void task_card(void *pvParameters){
+..\Code\APP\app_main.c(134): warning:  #177-D: function "task_fp"  was declared but never referenced
+  static void task_fp(void *pvParameters){
+..\Code\APP\app_main.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=24496 RO-data=1448 RW-data=348 ZI-data=40804  
+FromELF: creating hex file...
+After Build - User command #1: J:\software\Keil_v5_32\ARM\ARMCC\bin\fromelf.exe --bin --output .\access_control_system\access_control_system.bin .\access_control_system\*.axf
+".\access_control_system\access_control_system.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_access_control_system
+  J:\software\Keil_v5_32\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  J:\software\Keil_v5_32\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
